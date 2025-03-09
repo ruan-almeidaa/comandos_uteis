@@ -12,3 +12,8 @@ Nesse exemplo, a migration será gerada no projeto de "Infra", sendo que o proje
 dotnet ef migrations add NomeDaMigration --project Infra/Infra.csproj --startup-project API/API.csproj
 ```
 
+## Comandos Angular
+Para criar um projeto Angular sem o conceito de "Standalone"
+```bash
+ng new nome-projeto --no-standalone
+```
